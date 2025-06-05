@@ -1,30 +1,33 @@
+#include "invaders.h"
 #include "keyboard.h"
 #include "ship.h"
 #include <X11/X.h>
 #include <X11/Xlib.h>
 #include <loop.h>
+#include <pthread.h>
+#include <stdio.h>
+#include <unistd.h>
 
 void loop(DisplayGame game) {
   XEvent event;
+  pthread_t thread;
+  pthread_create(&thread, NULL, create_random, &game);
   while (1) {
-    XNextEvent(game.display, &event);
-    if (event.type == Expose) {
-      set_ship(game);
+    while (XPending(game.display)) {
 
-      XPutImage(game.display, game.window, DefaultGC(game.display, game.screen),
-                game.media.images.invaders_m1.image, 0, 0, 100, 100,
-                game.media.images.invaders_m1.width,
-                game.media.images.invaders_m1.height);
-      
-      XFlush(game.display);
+      XNextEvent(game.display, &event);
+      if (event.type == KeyPress) {
+        KeySym key = XLookupKeysym(&event.xkey, 0);
+        XClearWindow(game.display, game.window);
+        dispatcher(&game, key);
+      }
     }
 
-    if (event.type == KeyPress) {
-      KeySym key = XLookupKeysym(&event.xkey, 0);
-      XClearWindow(game.display, game.window);
+    XClearWindow(game.display, game.window);
+    set_ship(game);
+    run_inv(&game);
+    XFlush(game.display);
 
-      dispatcher(&game, key);
-      XFlush(game.display);
-    }
+    usleep(16000);
   }
 }

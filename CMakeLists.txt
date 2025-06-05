@@ -12,6 +12,7 @@ set(SOURCES
     src/media.c
     src/display.c
     src/ship.c
+    src/invaders.c
     src/keyboard.c
 )
 

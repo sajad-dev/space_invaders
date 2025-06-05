@@ -7,6 +7,7 @@ SpaceInvaders: \
   CMakeFiles/SpaceInvaders.dir/src/media.c.o \
   CMakeFiles/SpaceInvaders.dir/src/display.c.o \
   CMakeFiles/SpaceInvaders.dir/src/ship.c.o \
+  CMakeFiles/SpaceInvaders.dir/src/invaders.c.o \
   CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libX11.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libXft.so \
@@ -68,6 +69,8 @@ CMakeFiles/SpaceInvaders.dir/src/media.c.o:
 CMakeFiles/SpaceInvaders.dir/src/display.c.o:
 
 CMakeFiles/SpaceInvaders.dir/src/ship.c.o:
+
+CMakeFiles/SpaceInvaders.dir/src/invaders.c.o:
 
 CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o:
 

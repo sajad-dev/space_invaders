@@ -1,7 +1,6 @@
-CMakeFiles/SpaceInvaders.dir/src/loop.c.o: \
- /home/sajad/Documents/Programming/space_invaders/src/loop.c \
+CMakeFiles/SpaceInvaders.dir/src/invaders.c.o: \
+ /home/sajad/Documents/Programming/space_invaders/src/invaders.c \
  /usr/include/stdc-predef.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
  /usr/include/X11/Xlib.h /usr/include/sys/types.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -24,9 +23,8 @@ CMakeFiles/SpaceInvaders.dir/src/loop.c.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/keyboard.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/ship.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/loop.h \
+ /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
+ /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
  /usr/include/time.h /usr/include/bits/time.h \
@@ -44,7 +42,10 @@ CMakeFiles/SpaceInvaders.dir/src/loop.c.o: \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
- /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h
+ /usr/include/bits/floatn-common.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
+ /usr/include/bits/unistd_ext.h

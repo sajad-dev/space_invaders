@@ -153,6 +153,30 @@ src/display.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/display.c.s
 .PHONY : src/display.c.s
 
+src/invaders.o: src/invaders.c.o
+.PHONY : src/invaders.o
+
+# target to build an object file
+src/invaders.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/invaders.c.o
+.PHONY : src/invaders.c.o
+
+src/invaders.i: src/invaders.c.i
+.PHONY : src/invaders.i
+
+# target to preprocess a source file
+src/invaders.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/invaders.c.i
+.PHONY : src/invaders.c.i
+
+src/invaders.s: src/invaders.c.s
+.PHONY : src/invaders.s
+
+# target to generate assembly for a file
+src/invaders.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/invaders.c.s
+.PHONY : src/invaders.c.s
+
 src/keyboard.o: src/keyboard.c.o
 .PHONY : src/keyboard.o
 
@@ -285,6 +309,9 @@ help:
 	@echo "... src/display.o"
 	@echo "... src/display.i"
 	@echo "... src/display.s"
+	@echo "... src/invaders.o"
+	@echo "... src/invaders.i"
+	@echo "... src/invaders.s"
 	@echo "... src/keyboard.o"
 	@echo "... src/keyboard.i"
 	@echo "... src/keyboard.s"

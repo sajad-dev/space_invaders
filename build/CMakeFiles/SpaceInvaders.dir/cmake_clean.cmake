@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SpaceInvaders.dir/link.d"
   "CMakeFiles/SpaceInvaders.dir/src/display.c.o"
   "CMakeFiles/SpaceInvaders.dir/src/display.c.o.d"
+  "CMakeFiles/SpaceInvaders.dir/src/invaders.c.o"
+  "CMakeFiles/SpaceInvaders.dir/src/invaders.c.o.d"
   "CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o"
   "CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o.d"
   "CMakeFiles/SpaceInvaders.dir/src/loop.c.o"

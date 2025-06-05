@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sajad/Documents/Programming/space_invaders/src/display.c" "CMakeFiles/SpaceInvaders.dir/src/display.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/display.c.o.d"
+  "/home/sajad/Documents/Programming/space_invaders/src/invaders.c" "CMakeFiles/SpaceInvaders.dir/src/invaders.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/invaders.c.o.d"
   "/home/sajad/Documents/Programming/space_invaders/src/keyboard.c" "CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o.d"
   "/home/sajad/Documents/Programming/space_invaders/src/loop.c" "CMakeFiles/SpaceInvaders.dir/src/loop.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/loop.c.o.d"
   "/home/sajad/Documents/Programming/space_invaders/src/main.c" "CMakeFiles/SpaceInvaders.dir/src/main.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/main.c.o.d"
