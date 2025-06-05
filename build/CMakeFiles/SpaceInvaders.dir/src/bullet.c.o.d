@@ -1,5 +1,5 @@
-CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o: \
- /home/sajad/Documents/Programming/space_invaders/src/keyboard.c \
+CMakeFiles/SpaceInvaders.dir/src/bullet.c.o: \
+ /home/sajad/Documents/Programming/space_invaders/src/bullet.c \
  /usr/include/stdc-predef.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/bullet.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
@@ -24,10 +24,6 @@ CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/ship.h \
- /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
- /usr/include/X11/keysymdef.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/keyboard.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
@@ -35,4 +31,6 @@ CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o: \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h
+ /usr/include/bits/floatn-common.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h

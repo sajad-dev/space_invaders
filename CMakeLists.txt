@@ -13,6 +13,7 @@ set(SOURCES
     src/display.c
     src/ship.c
     src/invaders.c
+    src/bullet.c
     src/keyboard.c
 )
 

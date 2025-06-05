@@ -14,6 +14,7 @@ typedef struct {
 
 typedef struct {
 	Image ship;
+	Image bullet;
 	Image invaders_l1;
 	Image invaders_l2;
 	Image invaders_m1;

@@ -3,12 +3,6 @@
 
 #include "display.h"
 
-typedef enum {
-L,
-M,
-S
-} Inv;
-
 void set_inv(DisplayGame game, Image inv);
 
 void run_inv (DisplayGame *game);

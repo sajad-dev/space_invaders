@@ -1,3 +1,4 @@
+#include "bullet.h"
 #include "invaders.h"
 #include "keyboard.h"
 #include "ship.h"
@@ -23,9 +24,13 @@ void loop(DisplayGame game) {
       }
     }
 
+
+
     XClearWindow(game.display, game.window);
+
     set_ship(game);
     run_inv(&game);
+    run_bullet(&game);
     XFlush(game.display);
 
     usleep(16000);

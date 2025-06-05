@@ -129,6 +129,30 @@ SpaceInvaders/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/build
 .PHONY : SpaceInvaders/fast
 
+src/bullet.o: src/bullet.c.o
+.PHONY : src/bullet.o
+
+# target to build an object file
+src/bullet.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/bullet.c.o
+.PHONY : src/bullet.c.o
+
+src/bullet.i: src/bullet.c.i
+.PHONY : src/bullet.i
+
+# target to preprocess a source file
+src/bullet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/bullet.c.i
+.PHONY : src/bullet.c.i
+
+src/bullet.s: src/bullet.c.s
+.PHONY : src/bullet.s
+
+# target to generate assembly for a file
+src/bullet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/bullet.c.s
+.PHONY : src/bullet.c.s
+
 src/display.o: src/display.c.o
 .PHONY : src/display.o
 
@@ -306,6 +330,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SpaceInvaders"
+	@echo "... src/bullet.o"
+	@echo "... src/bullet.i"
+	@echo "... src/bullet.s"
 	@echo "... src/display.o"
 	@echo "... src/display.i"
 	@echo "... src/display.s"

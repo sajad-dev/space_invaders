@@ -1,3 +1,4 @@
+#include "bullet.h"
 #include "ship.h"
 #include <X11/X.h>
 #include <X11/Xutil.h>
@@ -13,6 +14,9 @@ void dispatcher(DisplayGame *game, KeySym key) {
   case XK_Left:
     left_ship(game);
     set_ship(*game);
+    break;
+  case XK_space:
+    shut(*game);
     break;
   };
 }

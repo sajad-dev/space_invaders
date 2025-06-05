@@ -22,7 +22,25 @@ void ship(DisplayGame game, Images *images) {
   ship_image.y = game.height - 50;
   images->ship = ship_image;
 }
+void bullet_add(DisplayGame game, Images *images) {
+  Image bullet;
 
+  unsigned char *data =
+      stbi_load("../Assets/Sprites/Projectiles/Projectile_Player.png",
+                &bullet.width, &bullet.height, &bullet.channels, 4);
+
+  if (!data) {
+    fprintf(stderr, "Failed to load image\n");
+  }
+
+  bullet.image = XCreateImage(
+      game.display, DefaultVisual(game.display, game.screen), 24, ZPixmap, 0,
+      (char *)data, bullet.width, bullet.height, 32, 0);
+
+  bullet.x = 0;
+  bullet.y = 0;
+  images->bullet = bullet;
+}
 void invader(DisplayGame game, Images *images) {
   Image invader;
 
@@ -123,7 +141,7 @@ Images add_image(DisplayGame game) {
 
   ship(game, &images);
   invader(game, &images);
-
+  bullet_add(game, &images);
 
   return images;
 }
