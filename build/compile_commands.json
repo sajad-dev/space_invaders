@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/sajad/Documents/Programming/space_invaders/build",
+  "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/main.c.o -c /home/sajad/Documents/Programming/space_invaders/src/main.c",
+  "file": "/home/sajad/Documents/Programming/space_invaders/src/main.c",
+  "output": "CMakeFiles/SpaceInvaders.dir/src/main.c.o"
+},
+{
+  "directory": "/home/sajad/Documents/Programming/space_invaders/build",
+  "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/loop.c.o -c /home/sajad/Documents/Programming/space_invaders/src/loop.c",
+  "file": "/home/sajad/Documents/Programming/space_invaders/src/loop.c",
+  "output": "CMakeFiles/SpaceInvaders.dir/src/loop.c.o"
+},
+{
+  "directory": "/home/sajad/Documents/Programming/space_invaders/build",
+  "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/media.c.o -c /home/sajad/Documents/Programming/space_invaders/src/media.c",
+  "file": "/home/sajad/Documents/Programming/space_invaders/src/media.c",
+  "output": "CMakeFiles/SpaceInvaders.dir/src/media.c.o"
+},
+{
+  "directory": "/home/sajad/Documents/Programming/space_invaders/build",
+  "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/display.c.o -c /home/sajad/Documents/Programming/space_invaders/src/display.c",
+  "file": "/home/sajad/Documents/Programming/space_invaders/src/display.c",
+  "output": "CMakeFiles/SpaceInvaders.dir/src/display.c.o"
+},
+{
+  "directory": "/home/sajad/Documents/Programming/space_invaders/build",
+  "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/ship.c.o -c /home/sajad/Documents/Programming/space_invaders/src/ship.c",
+  "file": "/home/sajad/Documents/Programming/space_invaders/src/ship.c",
+  "output": "CMakeFiles/SpaceInvaders.dir/src/ship.c.o"
+},
+{
+  "directory": "/home/sajad/Documents/Programming/space_invaders/build",
+  "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o -c /home/sajad/Documents/Programming/space_invaders/src/keyboard.c",
+  "file": "/home/sajad/Documents/Programming/space_invaders/src/keyboard.c",
+  "output": "CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o"
+}
+]
