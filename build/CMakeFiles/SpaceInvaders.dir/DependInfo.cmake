@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sajad/Documents/Programming/space_invaders/src/main.c" "CMakeFiles/SpaceInvaders.dir/src/main.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/main.c.o.d"
   "/home/sajad/Documents/Programming/space_invaders/src/media.c" "CMakeFiles/SpaceInvaders.dir/src/media.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/media.c.o.d"
   "/home/sajad/Documents/Programming/space_invaders/src/ship.c" "CMakeFiles/SpaceInvaders.dir/src/ship.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/ship.c.o.d"
+  "/home/sajad/Documents/Programming/space_invaders/src/target.c" "CMakeFiles/SpaceInvaders.dir/src/target.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/target.c.o.d"
   "" "SpaceInvaders" "gcc" "CMakeFiles/SpaceInvaders.dir/link.d"
   )
 

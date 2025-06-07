@@ -8,4 +8,8 @@ void run_bullet (DisplayGame *game);
 
 void shut(DisplayGame game) ;
 
+extern Image *bullet;
+extern int count_bullet;
+extern int capcity_bullet;
+
 #endif

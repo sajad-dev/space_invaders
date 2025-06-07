@@ -37,6 +37,12 @@
 },
 {
   "directory": "/home/sajad/Documents/Programming/space_invaders/build",
+  "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/target.c.o -c /home/sajad/Documents/Programming/space_invaders/src/target.c",
+  "file": "/home/sajad/Documents/Programming/space_invaders/src/target.c",
+  "output": "CMakeFiles/SpaceInvaders.dir/src/target.c.o"
+},
+{
+  "directory": "/home/sajad/Documents/Programming/space_invaders/build",
   "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/bullet.c.o -c /home/sajad/Documents/Programming/space_invaders/src/bullet.c",
   "file": "/home/sajad/Documents/Programming/space_invaders/src/bullet.c",
   "output": "CMakeFiles/SpaceInvaders.dir/src/bullet.c.o"

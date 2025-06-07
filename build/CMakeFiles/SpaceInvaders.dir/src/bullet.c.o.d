@@ -1,7 +1,7 @@
 CMakeFiles/SpaceInvaders.dir/src/bullet.c.o: \
  /home/sajad/Documents/Programming/space_invaders/src/bullet.c \
  /usr/include/stdc-predef.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/bullet.h \
+ /home/sajad/Documents/Programming/space_invaders/src/include/target.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
  /usr/include/X11/Xlib.h /usr/include/sys/types.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -24,6 +24,8 @@ CMakeFiles/SpaceInvaders.dir/src/bullet.c.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
+ /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
+ /home/sajad/Documents/Programming/space_invaders/src/include/bullet.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \

@@ -7,8 +7,8 @@
 #include <loop.h>
 #include <pthread.h>
 #include <stdio.h>
+#include <target.h>
 #include <unistd.h>
-
 void loop(DisplayGame game) {
   XEvent event;
   pthread_t thread;
@@ -24,13 +24,13 @@ void loop(DisplayGame game) {
       }
     }
 
-
-
     XClearWindow(game.display, game.window);
 
     set_ship(game);
+    // run_target(&game);
     run_inv(&game);
     run_bullet(&game);
+
     XFlush(game.display);
 
     usleep(16000);

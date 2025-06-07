@@ -1,3 +1,4 @@
+#include "target.h"
 #include <bullet.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,6 +24,9 @@ void shut(DisplayGame game) {
   bullet[count_bullet].x =
       game.media.images.ship.x + (game.media.images.ship.width / 2);
   bullet[count_bullet].y = game.media.images.ship.y;
+
+  // create_target(game, count_bullet);
+
   count_bullet += 1;
 }
 
@@ -30,5 +34,10 @@ void run_bullet(DisplayGame *game) {
   for (int i = 0; i < count_bullet; i++) {
     bullet[i].y -= 10;
     set_bullet(*game, bullet[i]);
+    if (bullet[i].y < 0) {
+      for (int j = 0; j < capcity_bullet - 2; j++) {
+        bullet[j] = bullet[j + 1];
+      }
+    }
   }
 };

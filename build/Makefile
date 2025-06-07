@@ -321,6 +321,30 @@ src/ship.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/ship.c.s
 .PHONY : src/ship.c.s
 
+src/target.o: src/target.c.o
+.PHONY : src/target.o
+
+# target to build an object file
+src/target.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/target.c.o
+.PHONY : src/target.c.o
+
+src/target.i: src/target.c.i
+.PHONY : src/target.i
+
+# target to preprocess a source file
+src/target.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/target.c.i
+.PHONY : src/target.c.i
+
+src/target.s: src/target.c.s
+.PHONY : src/target.s
+
+# target to generate assembly for a file
+src/target.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/target.c.s
+.PHONY : src/target.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -354,6 +378,9 @@ help:
 	@echo "... src/ship.o"
 	@echo "... src/ship.i"
 	@echo "... src/ship.s"
+	@echo "... src/target.o"
+	@echo "... src/target.i"
+	@echo "... src/target.s"
 .PHONY : help
 
 

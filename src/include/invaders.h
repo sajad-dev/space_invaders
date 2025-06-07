@@ -7,6 +7,14 @@ void set_inv(DisplayGame game, Image inv);
 
 void run_inv (DisplayGame *game);
 
-void* create_random(void* arg) ;
 
+void* create_random(void* arg) ;
+typedef struct {
+	  Image image;
+} InvadersSt;
+
+
+extern InvadersSt *invaders;
+extern int count_invaders;
+extern int capcity_invaders;
 #endif
