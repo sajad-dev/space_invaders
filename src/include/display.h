@@ -16,6 +16,7 @@ typedef struct {
 	Image ship;
 	Image bullet;
 	Image target;
+	Image distroy_invaders;
 
 	Image invaders_l1;
 	Image invaders_l2;

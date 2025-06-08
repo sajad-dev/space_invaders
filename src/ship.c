@@ -11,7 +11,7 @@ void right_ship(DisplayGame *game) {
   if (game->media.images.ship.x > game->width+ game->media.images.ship.width - 20) {
     game->media.images.ship.x = -game->media.images.ship.width;
   } else {
-    game->media.images.ship.x += 10;
+    game->media.images.ship.x += 20;
   }
 };
 void left_ship(DisplayGame *game) {
@@ -19,6 +19,6 @@ void left_ship(DisplayGame *game) {
     game->media.images.ship.x = game->width;
 
   } else {
-    game->media.images.ship.x -= 10;
+    game->media.images.ship.x -= 20;
   }
 };

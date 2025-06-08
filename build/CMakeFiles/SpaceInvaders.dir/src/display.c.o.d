@@ -25,8 +25,7 @@ CMakeFiles/SpaceInvaders.dir/src/display.c.o: \
  /usr/include/bits/struct_rwlock.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/target.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
+ /home/sajad/Documents/Programming/space_invaders/src/include/distroy.h \
  /usr/include/X11/Xft/Xft.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
  /usr/include/freetype2/ft2build.h \

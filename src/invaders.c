@@ -28,9 +28,10 @@ void *create_random(void *arg) {
     if (count_invaders == capcity_invaders) {
       capcity_invaders = capcity_invaders + 1;
 
-      invaders = invaders == NULL
-                     ? calloc(capcity_invaders, sizeof(Image))
-                     : realloc(invaders, (capcity_invaders) * sizeof(Image));
+      invaders =
+          invaders == NULL
+              ? calloc(capcity_invaders, sizeof(InvadersSt))
+              : realloc(invaders, (capcity_invaders) * sizeof(InvadersSt));
     }
 
     int num = 1;
@@ -38,6 +39,7 @@ void *create_random(void *arg) {
     switch (num) {
     case 1:
       invaders[count_invaders].image = game->media.images.invaders_l1;
+      invaders[count_invaders].health = 3;
     }
 
     invaders[count_invaders].image.y = -10;
@@ -55,7 +57,7 @@ void run_inv(DisplayGame *game) {
   for (int i = 0; i < count_invaders; i++) {
     invaders[i].image.y += 1;
     set_inv(*game, invaders[i].image);
-    if (invaders[i].image.y >= game->height+20) {
+    if (invaders[i].image.y >= game->height + 20) {
       for (int j = 0; j < capcity_invaders - 2; j++) {
         invaders[j] = invaders[j + 1];
       }

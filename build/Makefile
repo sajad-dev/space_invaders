@@ -177,6 +177,30 @@ src/display.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/display.c.s
 .PHONY : src/display.c.s
 
+src/distroy.o: src/distroy.c.o
+.PHONY : src/distroy.o
+
+# target to build an object file
+src/distroy.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/distroy.c.o
+.PHONY : src/distroy.c.o
+
+src/distroy.i: src/distroy.c.i
+.PHONY : src/distroy.i
+
+# target to preprocess a source file
+src/distroy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/distroy.c.i
+.PHONY : src/distroy.c.i
+
+src/distroy.s: src/distroy.c.s
+.PHONY : src/distroy.s
+
+# target to generate assembly for a file
+src/distroy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/distroy.c.s
+.PHONY : src/distroy.c.s
+
 src/invaders.o: src/invaders.c.o
 .PHONY : src/invaders.o
 
@@ -321,29 +345,29 @@ src/ship.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/ship.c.s
 .PHONY : src/ship.c.s
 
-src/target.o: src/target.c.o
-.PHONY : src/target.o
+src/utils.o: src/utils.c.o
+.PHONY : src/utils.o
 
 # target to build an object file
-src/target.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/target.c.o
-.PHONY : src/target.c.o
+src/utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/utils.c.o
+.PHONY : src/utils.c.o
 
-src/target.i: src/target.c.i
-.PHONY : src/target.i
+src/utils.i: src/utils.c.i
+.PHONY : src/utils.i
 
 # target to preprocess a source file
-src/target.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/target.c.i
-.PHONY : src/target.c.i
+src/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/utils.c.i
+.PHONY : src/utils.c.i
 
-src/target.s: src/target.c.s
-.PHONY : src/target.s
+src/utils.s: src/utils.c.s
+.PHONY : src/utils.s
 
 # target to generate assembly for a file
-src/target.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/target.c.s
-.PHONY : src/target.c.s
+src/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/utils.c.s
+.PHONY : src/utils.c.s
 
 # Help Target
 help:
@@ -360,6 +384,9 @@ help:
 	@echo "... src/display.o"
 	@echo "... src/display.i"
 	@echo "... src/display.s"
+	@echo "... src/distroy.o"
+	@echo "... src/distroy.i"
+	@echo "... src/distroy.s"
 	@echo "... src/invaders.o"
 	@echo "... src/invaders.i"
 	@echo "... src/invaders.s"
@@ -378,9 +405,9 @@ help:
 	@echo "... src/ship.o"
 	@echo "... src/ship.i"
 	@echo "... src/ship.s"
-	@echo "... src/target.o"
-	@echo "... src/target.i"
-	@echo "... src/target.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
 .PHONY : help
 
 

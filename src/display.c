@@ -1,6 +1,6 @@
 #include "bullet.h"
 #include "invaders.h"
-#include "target.h"
+#include "distroy.h"
 #include <X11/Xft/Xft.h>
 #include <X11/Xlib.h>
 #include <display.h>
@@ -35,7 +35,8 @@ void FreeMemmory(DisplayGame game) {
   XCloseDisplay(game.display);
   free(invaders);
   free(bullet);
-  free(target);
+  free(distroy_list);
+  // free(target);
   // XftFontClose(display, font);
   // XftDrawDestroy(game.draw);
 }

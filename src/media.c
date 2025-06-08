@@ -23,19 +23,40 @@ Image load_image(DisplayGame game, const char *path, int x, int y) {
 }
 
 void ship(DisplayGame game, Images *images) {
-  images->ship = load_image(game, "/home/sajad/Documents/Programming/space_invaders/Assets/Sprites/player2.png",
+  images->ship = load_image(game,
+                            "/home/sajad/Documents/Programming/space_invaders/"
+                            "Assets/Sprites/player2.png",
                             game.width / 2 - 50, game.height - 50);
 }
+
+void add_distroy_invaders(DisplayGame game, Images *images) {
+  images->distroy_invaders =
+      load_image(game,
+                 "/home/sajad/Documents/Programming/space_invaders/Assets/"
+                 "Sprites/Explosions/invaderExplosion.png",
+                 game.width / 2 - 50, game.height - 50);
+}
+
 void bullet_add(DisplayGame game, Images *images) {
-  images->bullet = load_image(
-      game, "/home/sajad/Documents/Programming/space_invaders/Assets/Sprites/Projectiles/Projectile_Player.png", 0, 0);
+  images->bullet =
+      load_image(game,
+                 "/home/sajad/Documents/Programming/space_invaders/Assets/"
+                 "Sprites/Projectiles/Projectile_Player.png",
+                 0, 0);
 }
 void target_add(DisplayGame game, Images *images) {
-  images->target = load_image(game, "/home/sajad/Documents/Programming/space_invaders/Assets/Sprites/targetMark.png", 0, 0);
+  images->target = load_image(game,
+                              "/home/sajad/Documents/Programming/"
+                              "space_invaders/Assets/Sprites/targetMark.png",
+                              0, 0);
 }
 
 void invader(DisplayGame game, Images *images) {
-  images->invaders_l1 = load_image(game, "/home/sajad/Documents/Programming/space_invaders/Assets/Sprites/Invaders/invaderL1.png", 0, 0);
+  images->invaders_l1 =
+      load_image(game,
+                 "/home/sajad/Documents/Programming/space_invaders/Assets/"
+                 "Sprites/Invaders/invaderL1.png",
+                 0, 0);
 
   //   data = stbi_load("../Assets/Sprites/Invaders/invaderL2.png",
   //   &invader.width,
@@ -125,6 +146,7 @@ Images add_image(DisplayGame game) {
   invader(game, &images);
   bullet_add(game, &images);
   target_add(game, &images);
+  add_distroy_invaders(game, &images);
 
   return images;
 }

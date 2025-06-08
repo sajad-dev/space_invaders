@@ -1,4 +1,5 @@
 #include "bullet.h"
+#include "distroy.h"
 #include "invaders.h"
 #include "keyboard.h"
 #include "ship.h"
@@ -29,7 +30,9 @@ void loop(DisplayGame game) {
     set_ship(game);
     // run_target(&game);
     run_inv(&game);
+    distroy_invaders(game);
     run_bullet(&game);
+    deailing(game);
 
     XFlush(game.display);
 

@@ -11,6 +11,7 @@ void run_inv (DisplayGame *game);
 void* create_random(void* arg) ;
 typedef struct {
 	  Image image;
+	  int health;
 } InvadersSt;
 
 

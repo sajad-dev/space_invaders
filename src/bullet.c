@@ -31,13 +31,17 @@ void shut(DisplayGame game) {
 }
 
 void run_bullet(DisplayGame *game) {
-  for (int i = 0; i < count_bullet; i++) {
+  for (int i = 0; i < count_bullet;) {
     bullet[i].y -= 10;
-    set_bullet(*game, bullet[i]);
     if (bullet[i].y < 0) {
-      for (int j = 0; j < capcity_bullet - 2; j++) {
+      for (int j = i; j < count_bullet - 1; j++) {
         bullet[j] = bullet[j + 1];
       }
+      count_bullet--;
+      continue;
+    } else {
+      set_bullet(*game, bullet[i]);
+      i++;
     }
   }
-};
+}
