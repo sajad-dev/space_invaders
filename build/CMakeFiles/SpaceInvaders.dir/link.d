@@ -10,6 +10,8 @@ SpaceInvaders: \
   CMakeFiles/SpaceInvaders.dir/src/invaders.c.o \
   CMakeFiles/SpaceInvaders.dir/src/distroy.c.o \
   CMakeFiles/SpaceInvaders.dir/src/bullet.c.o \
+  CMakeFiles/SpaceInvaders.dir/src/clock.c.o \
+  CMakeFiles/SpaceInvaders.dir/src/footer.c.o \
   CMakeFiles/SpaceInvaders.dir/src/utils.c.o \
   CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/libX11.so \
@@ -78,6 +80,10 @@ CMakeFiles/SpaceInvaders.dir/src/invaders.c.o:
 CMakeFiles/SpaceInvaders.dir/src/distroy.c.o:
 
 CMakeFiles/SpaceInvaders.dir/src/bullet.c.o:
+
+CMakeFiles/SpaceInvaders.dir/src/clock.c.o:
+
+CMakeFiles/SpaceInvaders.dir/src/footer.c.o:
 
 CMakeFiles/SpaceInvaders.dir/src/utils.c.o:
 

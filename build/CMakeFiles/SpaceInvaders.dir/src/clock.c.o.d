@@ -1,7 +1,7 @@
-CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o: \
- /home/sajad/Documents/Programming/space_invaders/src/keyboard.c \
+CMakeFiles/SpaceInvaders.dir/src/clock.c.o: \
+ /home/sajad/Documents/Programming/space_invaders/src/clock.c \
  /usr/include/stdc-predef.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/bullet.h \
+ /home/sajad/Documents/Programming/space_invaders/src/include/clock.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
  /usr/include/X11/Xft/Xft.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
@@ -69,6 +69,4 @@ CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o: \
  /usr/include/X11/Xdefs.h /usr/include/X11/Xft/XftCompat.h \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
- /usr/include/bits/types/struct_itimerspec.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/ship.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/keyboard.h
+ /usr/include/bits/types/struct_itimerspec.h

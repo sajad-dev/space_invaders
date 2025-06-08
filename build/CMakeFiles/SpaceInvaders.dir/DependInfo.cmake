@@ -9,8 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sajad/Documents/Programming/space_invaders/src/bullet.c" "CMakeFiles/SpaceInvaders.dir/src/bullet.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/bullet.c.o.d"
+  "/home/sajad/Documents/Programming/space_invaders/src/clock.c" "CMakeFiles/SpaceInvaders.dir/src/clock.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/clock.c.o.d"
   "/home/sajad/Documents/Programming/space_invaders/src/display.c" "CMakeFiles/SpaceInvaders.dir/src/display.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/display.c.o.d"
   "/home/sajad/Documents/Programming/space_invaders/src/distroy.c" "CMakeFiles/SpaceInvaders.dir/src/distroy.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/distroy.c.o.d"
+  "/home/sajad/Documents/Programming/space_invaders/src/footer.c" "CMakeFiles/SpaceInvaders.dir/src/footer.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/footer.c.o.d"
   "/home/sajad/Documents/Programming/space_invaders/src/invaders.c" "CMakeFiles/SpaceInvaders.dir/src/invaders.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/invaders.c.o.d"
   "/home/sajad/Documents/Programming/space_invaders/src/keyboard.c" "CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o.d"
   "/home/sajad/Documents/Programming/space_invaders/src/loop.c" "CMakeFiles/SpaceInvaders.dir/src/loop.c.o" "gcc" "CMakeFiles/SpaceInvaders.dir/src/loop.c.o.d"

@@ -34,7 +34,7 @@ void add_distroy_invaders(DisplayGame game, Images *images) {
       load_image(game,
                  "/home/sajad/Documents/Programming/space_invaders/Assets/"
                  "Sprites/Explosions/invaderExplosion.png",
-                 game.width / 2 - 50, game.height - 50);
+                 game.width / 2 - 50, game.height );
 }
 
 void bullet_add(DisplayGame game, Images *images) {

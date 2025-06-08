@@ -57,7 +57,7 @@ void run_inv(DisplayGame *game) {
   for (int i = 0; i < count_invaders; i++) {
     invaders[i].image.y += 1;
     set_inv(*game, invaders[i].image);
-    if (invaders[i].image.y >= game->height + 20) {
+    if (invaders[i].image.y >= game->height-50 ) {
       for (int j = 0; j < capcity_invaders - 2; j++) {
         invaders[j] = invaders[j + 1];
       }

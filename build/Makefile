@@ -153,6 +153,30 @@ src/bullet.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/bullet.c.s
 .PHONY : src/bullet.c.s
 
+src/clock.o: src/clock.c.o
+.PHONY : src/clock.o
+
+# target to build an object file
+src/clock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/clock.c.o
+.PHONY : src/clock.c.o
+
+src/clock.i: src/clock.c.i
+.PHONY : src/clock.i
+
+# target to preprocess a source file
+src/clock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/clock.c.i
+.PHONY : src/clock.c.i
+
+src/clock.s: src/clock.c.s
+.PHONY : src/clock.s
+
+# target to generate assembly for a file
+src/clock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/clock.c.s
+.PHONY : src/clock.c.s
+
 src/display.o: src/display.c.o
 .PHONY : src/display.o
 
@@ -200,6 +224,30 @@ src/distroy.s: src/distroy.c.s
 src/distroy.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/distroy.c.s
 .PHONY : src/distroy.c.s
+
+src/footer.o: src/footer.c.o
+.PHONY : src/footer.o
+
+# target to build an object file
+src/footer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/footer.c.o
+.PHONY : src/footer.c.o
+
+src/footer.i: src/footer.c.i
+.PHONY : src/footer.i
+
+# target to preprocess a source file
+src/footer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/footer.c.i
+.PHONY : src/footer.c.i
+
+src/footer.s: src/footer.c.s
+.PHONY : src/footer.s
+
+# target to generate assembly for a file
+src/footer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/footer.c.s
+.PHONY : src/footer.c.s
 
 src/invaders.o: src/invaders.c.o
 .PHONY : src/invaders.o
@@ -381,12 +429,18 @@ help:
 	@echo "... src/bullet.o"
 	@echo "... src/bullet.i"
 	@echo "... src/bullet.s"
+	@echo "... src/clock.o"
+	@echo "... src/clock.i"
+	@echo "... src/clock.s"
 	@echo "... src/display.o"
 	@echo "... src/display.i"
 	@echo "... src/display.s"
 	@echo "... src/distroy.o"
 	@echo "... src/distroy.i"
 	@echo "... src/distroy.s"
+	@echo "... src/footer.o"
+	@echo "... src/footer.i"
+	@echo "... src/footer.s"
 	@echo "... src/invaders.o"
 	@echo "... src/invaders.i"
 	@echo "... src/invaders.s"

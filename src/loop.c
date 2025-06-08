@@ -1,5 +1,7 @@
 #include "bullet.h"
+#include "clock.h"
 #include "distroy.h"
+#include "footer.h"
 #include "invaders.h"
 #include "keyboard.h"
 #include "ship.h"
@@ -15,10 +17,12 @@ void loop(DisplayGame game) {
   pthread_t thread;
   pthread_create(&thread, NULL, create_random, &game);
   while (1) {
+
     while (XPending(game.display)) {
 
       XNextEvent(game.display, &event);
       if (event.type == KeyPress) {
+
         KeySym key = XLookupKeysym(&event.xkey, 0);
         XClearWindow(game.display, game.window);
         dispatcher(&game, key);
@@ -33,9 +37,10 @@ void loop(DisplayGame game) {
     distroy_invaders(game);
     run_bullet(&game);
     deailing(game);
-
+    render_clock(game);
+    draw_footer(game);
     XFlush(game.display);
-
+    game.time_pass += 1600.0 / (100000);
     usleep(16000);
   }
 }

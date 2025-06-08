@@ -7,9 +7,17 @@ CMakeFiles/SpaceInvaders.dir/src/bullet.c.o: /home/sajad/Documents/Programming/s
   /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/target.h \
   /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xft/Xft.h \
+  /usr/include/X11/Xft/XftCompat.h \
   /usr/include/X11/Xfuncproto.h \
   /usr/include/X11/Xlib.h \
   /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
   /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
@@ -18,16 +26,25 @@ CMakeFiles/SpaceInvaders.dir/src/bullet.c.o: /home/sajad/Documents/Programming/s
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthread_stack_min.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
@@ -35,15 +52,20 @@ CMakeFiles/SpaceInvaders.dir/src/bullet.c.o: /home/sajad/Documents/Programming/s
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
   /usr/include/bits/types/time_t.h \
   /usr/include/bits/types/timer_t.h \
   /usr/include/bits/typesizes.h \
@@ -54,16 +76,150 @@ CMakeFiles/SpaceInvaders.dir/src/bullet.c.o: /home/sajad/Documents/Programming/s
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/ft2build.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/setjmp.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
+
+CMakeFiles/SpaceInvaders.dir/src/clock.c.o: /home/sajad/Documents/Programming/space_invaders/src/clock.c \
+  /home/sajad/Documents/Programming/space_invaders/src/include/clock.h \
+  /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
+  /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xft/Xft.h \
+  /usr/include/X11/Xft/XftCompat.h \
+  /usr/include/X11/Xfuncproto.h \
+  /usr/include/X11/Xlib.h \
+  /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthread_stack_min.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/ft2build.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
 CMakeFiles/SpaceInvaders.dir/src/display.c.o: /home/sajad/Documents/Programming/space_invaders/src/display.c \
   /home/sajad/Documents/Programming/space_invaders/src/include/bullet.h \
@@ -108,6 +264,7 @@ CMakeFiles/SpaceInvaders.dir/src/display.c.o: /home/sajad/Documents/Programming/
   /usr/include/bits/struct_rwlock.h \
   /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
@@ -125,8 +282,10 @@ CMakeFiles/SpaceInvaders.dir/src/display.c.o: /home/sajad/Documents/Programming/
   /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
   /usr/include/bits/types/time_t.h \
   /usr/include/bits/types/timer_t.h \
   /usr/include/bits/typesizes.h \
@@ -167,6 +326,7 @@ CMakeFiles/SpaceInvaders.dir/src/display.c.o: /home/sajad/Documents/Programming/
   /usr/include/sys/select.h \
   /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
+  /usr/include/time.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
@@ -178,9 +338,17 @@ CMakeFiles/SpaceInvaders.dir/src/distroy.c.o: /home/sajad/Documents/Programming/
   /home/sajad/Documents/Programming/space_invaders/src/include/distroy.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
   /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xft/Xft.h \
+  /usr/include/X11/Xft/XftCompat.h \
   /usr/include/X11/Xfuncproto.h \
   /usr/include/X11/Xlib.h \
   /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
   /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
@@ -194,7 +362,10 @@ CMakeFiles/SpaceInvaders.dir/src/distroy.c.o: /home/sajad/Documents/Programming/
   /usr/include/bits/getopt_core.h \
   /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
   /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthread_stack_min.h \
@@ -203,85 +374,13 @@ CMakeFiles/SpaceInvaders.dir/src/distroy.c.o: /home/sajad/Documents/Programming/
   /usr/include/bits/sched.h \
   /usr/include/bits/select.h \
   /usr/include/bits/setjmp.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/time.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/bits/types/struct_itimerspec.h \
-  /usr/include/bits/types/struct_sched_param.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_tm.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/bits/unistd_ext.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/endian.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdlib.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/sys/select.h \
-  /usr/include/sys/types.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h
-
-CMakeFiles/SpaceInvaders.dir/src/invaders.c.o: /home/sajad/Documents/Programming/space_invaders/src/invaders.c \
-  /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
-  /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
-  /usr/include/X11/X.h \
-  /usr/include/X11/Xfuncproto.h \
-  /usr/include/X11/Xlib.h \
-  /usr/include/X11/Xosdefs.h \
-  /usr/include/alloca.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/cpu-set.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/pthread_stack_min-dynamic.h \
-  /usr/include/bits/pthread_stack_min.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/sched.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -317,20 +416,275 @@ CMakeFiles/SpaceInvaders.dir/src/invaders.c.o: /home/sajad/Documents/Programming
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/ft2build.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/setjmp.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/unistd.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
+
+CMakeFiles/SpaceInvaders.dir/src/footer.c.o: /home/sajad/Documents/Programming/space_invaders/src/footer.c \
+  /home/sajad/Documents/Programming/space_invaders/src/include/clock.h \
+  /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
+  /home/sajad/Documents/Programming/space_invaders/src/include/footer.h \
+  /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xft/Xft.h \
+  /usr/include/X11/Xft/XftCompat.h \
+  /usr/include/X11/Xfuncproto.h \
+  /usr/include/X11/Xlib.h \
+  /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthread_stack_min.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/ft2build.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
+
+CMakeFiles/SpaceInvaders.dir/src/invaders.c.o: /home/sajad/Documents/Programming/space_invaders/src/invaders.c \
+  /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
+  /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
+  /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xft/Xft.h \
+  /usr/include/X11/Xft/XftCompat.h \
+  /usr/include/X11/Xfuncproto.h \
+  /usr/include/X11/Xlib.h \
+  /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthread_stack_min.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/unistd_ext.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/ft2build.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/setjmp.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/unistd.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
 CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o: /home/sajad/Documents/Programming/space_invaders/src/keyboard.c \
   /home/sajad/Documents/Programming/space_invaders/src/include/bullet.h \
@@ -338,12 +692,18 @@ CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o: /home/sajad/Documents/Programming
   /home/sajad/Documents/Programming/space_invaders/src/include/keyboard.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/ship.h \
   /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xft/Xft.h \
+  /usr/include/X11/Xft/XftCompat.h \
   /usr/include/X11/Xfuncproto.h \
   /usr/include/X11/Xlib.h \
   /usr/include/X11/Xosdefs.h \
   /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h \
   /usr/include/X11/keysym.h \
   /usr/include/X11/keysymdef.h \
+  /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/endian.h \
@@ -351,15 +711,25 @@ CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o: /home/sajad/Documents/Programming
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthread_stack_min.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
@@ -367,46 +737,90 @@ CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o: /home/sajad/Documents/Programming
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
   /usr/include/bits/types/time_t.h \
   /usr/include/bits/types/timer_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
   /usr/include/bits/wordsize.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/ft2build.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/setjmp.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
 CMakeFiles/SpaceInvaders.dir/src/loop.c.o: /home/sajad/Documents/Programming/space_invaders/src/loop.c \
   /home/sajad/Documents/Programming/space_invaders/src/include/bullet.h \
+  /home/sajad/Documents/Programming/space_invaders/src/include/clock.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/distroy.h \
+  /home/sajad/Documents/Programming/space_invaders/src/include/footer.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/keyboard.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/loop.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/ship.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/target.h \
   /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xft/Xft.h \
+  /usr/include/X11/Xft/XftCompat.h \
   /usr/include/X11/Xfuncproto.h \
   /usr/include/X11/Xlib.h \
   /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
+  /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/confname.h \
@@ -419,7 +833,10 @@ CMakeFiles/SpaceInvaders.dir/src/loop.c.o: /home/sajad/Documents/Programming/spa
   /usr/include/bits/getopt_core.h \
   /usr/include/bits/getopt_posix.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
   /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthread_stack_min.h \
@@ -428,10 +845,13 @@ CMakeFiles/SpaceInvaders.dir/src/loop.c.o: /home/sajad/Documents/Programming/spa
   /usr/include/bits/sched.h \
   /usr/include/bits/select.h \
   /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -461,77 +881,177 @@ CMakeFiles/SpaceInvaders.dir/src/loop.c.o: /home/sajad/Documents/Programming/spa
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
   /usr/include/bits/unistd_ext.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
   /usr/include/bits/wordsize.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/ft2build.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/setjmp.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/unistd.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
 CMakeFiles/SpaceInvaders.dir/src/main.c.o: /home/sajad/Documents/Programming/space_invaders/src/main.c \
   /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/loop.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/media.h \
   /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xft/Xft.h \
+  /usr/include/X11/Xft/XftCompat.h \
   /usr/include/X11/Xfuncproto.h \
   /usr/include/X11/Xlib.h \
   /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
+  /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthread_stack_min.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
   /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
   /usr/include/bits/types/time_t.h \
   /usr/include/bits/types/timer_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
   /usr/include/bits/wordsize.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/ft2build.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/setjmp.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h
+  /usr/include/time.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
 CMakeFiles/SpaceInvaders.dir/src/media.c.o: /home/sajad/Documents/Programming/space_invaders/src/media.c \
   /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/media.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/stb_image.h \
   /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xft/Xft.h \
+  /usr/include/X11/Xft/XftCompat.h \
   /usr/include/X11/Xfuncproto.h \
   /usr/include/X11/Xlib.h \
   /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
@@ -560,6 +1080,8 @@ CMakeFiles/SpaceInvaders.dir/src/media.c.o: /home/sajad/Documents/Programming/sp
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
@@ -567,7 +1089,9 @@ CMakeFiles/SpaceInvaders.dir/src/media.c.o: /home/sajad/Documents/Programming/sp
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
@@ -584,8 +1108,11 @@ CMakeFiles/SpaceInvaders.dir/src/media.c.o: /home/sajad/Documents/Programming/sp
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
   /usr/include/bits/types/time_t.h \
   /usr/include/bits/types/timer_t.h \
   /usr/include/bits/typesizes.h \
@@ -597,11 +1124,28 @@ CMakeFiles/SpaceInvaders.dir/src/media.c.o: /home/sajad/Documents/Programming/sp
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/ft2build.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
   /usr/include/limits.h \
   /usr/include/linux/limits.h \
   /usr/include/math.h \
+  /usr/include/setjmp.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -610,7 +1154,9 @@ CMakeFiles/SpaceInvaders.dir/src/media.c.o: /home/sajad/Documents/Programming/sp
   /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
+  /usr/include/time.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/emmintrin.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/mm_malloc.h \
@@ -625,45 +1171,110 @@ CMakeFiles/SpaceInvaders.dir/src/ship.c.o: /home/sajad/Documents/Programming/spa
   /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
   /home/sajad/Documents/Programming/space_invaders/src/include/ship.h \
   /usr/include/X11/X.h \
+  /usr/include/X11/Xdefs.h \
+  /usr/include/X11/Xft/Xft.h \
+  /usr/include/X11/Xft/XftCompat.h \
   /usr/include/X11/Xfuncproto.h \
   /usr/include/X11/Xlib.h \
   /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h \
+  /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h \
+  /usr/include/alloca.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/local_lim.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthread_stack_min.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
   /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
   /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
   /usr/include/bits/types/time_t.h \
   /usr/include/bits/types/timer_t.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
   /usr/include/bits/wordsize.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/freetype2/freetype/config/integer-types.h \
+  /usr/include/freetype2/freetype/config/mac-support.h \
+  /usr/include/freetype2/freetype/config/public-macros.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/ft2build.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/setjmp.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
+  /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h
+  /usr/include/time.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h
 
 CMakeFiles/SpaceInvaders.dir/src/utils.c.o: /home/sajad/Documents/Programming/space_invaders/src/utils.c \
   /home/sajad/Documents/Programming/space_invaders/src/include/utils.h \
@@ -703,8 +1314,10 @@ SpaceInvaders: /usr/lib/Scrt1.o \
   /usr/lib/libxcb.so.1 \
   /usr/lib/libz.so.1 \
   CMakeFiles/SpaceInvaders.dir/src/bullet.c.o \
+  CMakeFiles/SpaceInvaders.dir/src/clock.c.o \
   CMakeFiles/SpaceInvaders.dir/src/display.c.o \
   CMakeFiles/SpaceInvaders.dir/src/distroy.c.o \
+  CMakeFiles/SpaceInvaders.dir/src/footer.c.o \
   CMakeFiles/SpaceInvaders.dir/src/invaders.c.o \
   CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o \
   CMakeFiles/SpaceInvaders.dir/src/loop.c.o \
@@ -796,29 +1409,221 @@ CMakeFiles/SpaceInvaders.dir/src/media.c.o:
 
 /home/sajad/Documents/Programming/space_invaders/src/include/keyboard.h:
 
-/usr/lib/Scrt1.o:
+/home/sajad/Documents/Programming/space_invaders/src/keyboard.c:
 
-/usr/include/bits/types/timer_t.h:
+/home/sajad/Documents/Programming/space_invaders/src/include/footer.h:
 
-/usr/include/endian.h:
+/usr/include/bits/types/clockid_t.h:
 
-/usr/include/bits/types/cookie_io_functions_t.h:
+/usr/lib/libexpat.so.1:
 
-/usr/include/bits/sched.h:
+/usr/include/bits/local_lim.h:
 
-/usr/include/stdlib.h:
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/sched.h:
+
+/usr/lib/libpng16.so.16:
+
+/home/sajad/Documents/Programming/space_invaders/src/ship.c:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/bits/iscanonical.h:
+
+/usr/include/X11/X.h:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/limits.h:
+
+/home/sajad/Documents/Programming/space_invaders/src/include/distroy.h:
+
+/usr/include/bits/thread-shared-types.h:
 
 /home/sajad/Documents/Programming/space_invaders/src/include/bullet.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/freetype2/freetype/fttypes.h:
 
 /home/sajad/Documents/Programming/space_invaders/src/utils.c:
 
 /usr/include/bits/types/struct_timeval.h:
 
-/usr/include/bits/types/struct_timespec.h:
+CMakeFiles/SpaceInvaders.dir/src/utils.c.o:
+
+/usr/include/bits/setjmp.h:
+
+/usr/lib/libbrotlicommon.so.1:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/home/sajad/Documents/Programming/space_invaders/src/include/clock.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+CMakeFiles/SpaceInvaders.dir/src/bullet.c.o:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/home/sajad/Documents/Programming/space_invaders/src/include/target.h:
+
+/usr/include/freetype2/freetype/config/integer-types.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/bits/pthread_stack_min.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/X11/Xutil.h:
+
+/home/sajad/Documents/Programming/space_invaders/src/main.c:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/bits/struct_stat.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/freetype2/freetype/config/ftoption.h:
+
+/usr/include/bits/types/clock_t.h:
+
+CMakeFiles/SpaceInvaders.dir/src/display.c.o:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/X11/Xosdefs.h:
+
+/usr/include/X11/Xft/Xft.h:
+
+/usr/include/bits/types/cookie_io_functions_t.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/sched.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/libgcc.a:
+
+/usr/include/X11/Xdefs.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
+/usr/include/assert.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/freetype2/freetype/fterrdef.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/home/sajad/Documents/Programming/space_invaders/src/include/invaders.h:
+
+CMakeFiles/SpaceInvaders.dir/src/footer.c.o:
+
+/usr/include/strings.h:
+
+/home/sajad/Documents/Programming/space_invaders/src/bullet.c:
+
+CMakeFiles/SpaceInvaders.dir/src/clock.c.o:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o:
+
+/home/sajad/Documents/Programming/space_invaders/src/include/ship.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/time64.h:
+
+CMakeFiles/SpaceInvaders.dir/src/ship.c.o:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+/home/sajad/Documents/Programming/space_invaders/src/footer.c:
+
+/usr/include/string.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h:
+
+/usr/include/stdint.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/X11/Xlib.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/X11/extensions/render.h:
+
+/usr/include/bits/types.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/mm_malloc.h:
+
+/usr/include/bits/getopt_core.h:
+
+/usr/include/X11/keysym.h:
+
+/home/sajad/Documents/Programming/space_invaders/src/include/display.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/X11/keysymdef.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/X11/Xft/XftCompat.h:
+
+CMakeFiles/SpaceInvaders.dir/src/distroy.c.o:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/bits/floatn-common.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
 /usr/include/sys/stat.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/lib/Scrt1.o:
+
+/usr/include/bits/types/timer_t.h:
+
+/usr/include/X11/Xfuncproto.h:
+
+/usr/include/stdio.h:
 
 /usr/lib/crti.o:
 
@@ -836,225 +1641,21 @@ CMakeFiles/SpaceInvaders.dir/src/media.c.o:
 
 /usr/include/bits/cpu-set.h:
 
-/usr/include/bits/types/clockid_t.h:
-
-/usr/lib/libexpat.so.1:
-
-/usr/include/bits/local_lim.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/lib/libpng16.so.16:
-
-/home/sajad/Documents/Programming/space_invaders/src/ship.c:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/bits/iscanonical.h:
-
-/usr/include/X11/X.h:
-
-/usr/include/bits/flt-eval-method.h:
-
-/usr/include/bits/types/FILE.h:
-
-/home/sajad/Documents/Programming/space_invaders/src/include/distroy.h:
-
-/usr/include/limits.h:
-
-/usr/include/bits/types.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/mm_malloc.h:
-
-/usr/include/bits/getopt_core.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o:
-
-/home/sajad/Documents/Programming/space_invaders/src/include/ship.h:
-
-/usr/include/alloca.h:
-
-/home/sajad/Documents/Programming/space_invaders/src/bullet.c:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtendS.o:
 
 /usr/include/bits/waitflags.h:
 
 /usr/include/bits/types/struct_sched_param.h:
 
-CMakeFiles/SpaceInvaders.dir/src/distroy.c.o:
-
-/usr/include/bits/types/__sigset_t.h:
+/usr/include/bits/timesize.h:
 
 /usr/include/bits/waitstatus.h:
 
-/usr/include/bits/timesize.h:
-
-/usr/include/X11/Xosdefs.h:
-
-/usr/include/stdio.h:
-
-/usr/include/X11/Xfuncproto.h:
-
-/home/sajad/Documents/Programming/space_invaders/src/main.c:
-
-/usr/include/bits/long-double.h:
-
-/home/sajad/Documents/Programming/space_invaders/src/include/invaders.h:
-
-/usr/include/strings.h:
-
-/usr/include/bits/stdint-intn.h:
-
-/home/sajad/Documents/Programming/space_invaders/src/include/display.h:
-
-/usr/include/features.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/bits/types/sigset_t.h:
-
-/home/sajad/Documents/Programming/space_invaders/src/include/target.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/freetype2/freetype/config/integer-types.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/stdc-predef.h:
+/usr/include/bits/wordsize.h:
 
 /home/sajad/Documents/Programming/space_invaders/src/invaders.c:
 
 /usr/include/features-time64.h:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-CMakeFiles/SpaceInvaders.dir/src/bullet.c.o:
-
-/usr/include/bits/select.h:
-
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/freetype2/freetype/fttypes.h:
-
-/usr/include/bits/thread-shared-types.h:
-
-/usr/include/stdint.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/X11/Xlib.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/bits/stdlib-float.h:
-
-/usr/include/bits/time64.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h:
-
-CMakeFiles/SpaceInvaders.dir/src/ship.c.o:
-
-/usr/include/bits/mathcalls-helper-functions.h:
-
-/usr/include/string.h:
-
-/usr/include/sys/cdefs.h:
-
-/usr/include/bits/environments.h:
-
-/usr/include/sys/types.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/libgcc.a:
-
-/usr/include/X11/Xdefs.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/bits/types/struct_itimerspec.h:
-
-/usr/include/bits/unistd_ext.h:
-
-/home/sajad/Documents/Programming/space_invaders/src/display.c:
-
-/usr/include/X11/Xft/Xft.h:
-
-/usr/include/X11/Xft/XftCompat.h:
-
-/usr/include/X11/Xutil.h:
-
-/usr/include/bits/mathcalls.h:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/freetype2/freetype/config/ftoption.h:
-
-/usr/include/bits/endian.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h:
-
-/usr/include/X11/extensions/Xrender.h:
-
-CMakeFiles/SpaceInvaders.dir/src/utils.c.o:
-
-/usr/include/bits/setjmp.h:
-
-/usr/lib/libbrotlicommon.so.1:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/X11/extensions/render.h:
-
-/usr/include/X11/keysym.h:
-
-/usr/include/X11/keysymdef.h:
-
-/usr/include/bits/posix1_lim.h:
-
-CMakeFiles/SpaceInvaders.dir/src/display.c.o:
-
-/usr/include/bits/posix2_lim.h:
-
-/usr/include/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/bits/pthread_stack_min.h:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
-/usr/include/assert.h:
-
-/usr/include/bits/stat.h:
-
-/usr/include/freetype2/freetype/fterrdef.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/time.h:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/bits/struct_stat.h:
-
-/usr/include/bits/types/__locale_t.h:
-
-/usr/include/sched.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/fontconfig/fontconfig.h:
 
 /usr/include/freetype2/freetype/config/ftconfig.h:
 
@@ -1094,7 +1695,37 @@ CMakeFiles/SpaceInvaders.dir/src/display.c.o:
 
 /usr/include/freetype2/ft2build.h:
 
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/fontconfig/fontconfig.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/time.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h:
+
+/usr/include/X11/extensions/Xrender.h:
+
+/usr/include/bits/endian.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h:
+
+/usr/include/bits/unistd_ext.h:
+
+/home/sajad/Documents/Programming/space_invaders/src/clock.c:
+
+/home/sajad/Documents/Programming/space_invaders/src/display.c:
 
 /usr/lib/libgcc_s.so.1:
 
@@ -1106,13 +1737,7 @@ CMakeFiles/SpaceInvaders.dir/src/display.c.o:
 
 /usr/include/bits/posix_opt.h:
 
-/usr/include/bits/types/struct_tm.h:
-
 /usr/include/pthread.h:
-
-/home/sajad/Documents/Programming/space_invaders/src/keyboard.c:
-
-/usr/include/time.h:
 
 /usr/include/setjmp.h:
 

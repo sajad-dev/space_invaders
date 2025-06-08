@@ -1,7 +1,9 @@
 #ifndef DISPLAY_H
 #define DISPLAY_H
 
+#include <X11/Xft/Xft.h>
 #include <X11/Xlib.h>
+#include <time.h>
 
 typedef struct {
 	XImage *image;
@@ -33,11 +35,17 @@ typedef struct {
 typedef struct {
 	int width;
 	int height;
+	int width_screen;
+	int height_screen;
 	Display *display;
 	Window window;
 	GC gc;
 	int screen;
+	time_t time_start;
+	float time_pass;
 	Media media;
+	XftFont *font;
+	XftDraw *draw;
 } DisplayGame;
 
 DisplayGame configuration (int width,int height);

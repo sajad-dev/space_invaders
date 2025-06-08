@@ -49,6 +49,18 @@
 },
 {
   "directory": "/home/sajad/Documents/Programming/space_invaders/build",
+  "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/clock.c.o -c /home/sajad/Documents/Programming/space_invaders/src/clock.c",
+  "file": "/home/sajad/Documents/Programming/space_invaders/src/clock.c",
+  "output": "CMakeFiles/SpaceInvaders.dir/src/clock.c.o"
+},
+{
+  "directory": "/home/sajad/Documents/Programming/space_invaders/build",
+  "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/footer.c.o -c /home/sajad/Documents/Programming/space_invaders/src/footer.c",
+  "file": "/home/sajad/Documents/Programming/space_invaders/src/footer.c",
+  "output": "CMakeFiles/SpaceInvaders.dir/src/footer.c.o"
+},
+{
+  "directory": "/home/sajad/Documents/Programming/space_invaders/build",
   "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/utils.c.o -c /home/sajad/Documents/Programming/space_invaders/src/utils.c",
   "file": "/home/sajad/Documents/Programming/space_invaders/src/utils.c",
   "output": "CMakeFiles/SpaceInvaders.dir/src/utils.c.o"
