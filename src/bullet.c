@@ -25,11 +25,9 @@ void shut(DisplayGame game, int x, int y) {
   bullet[count_bullet].bullet.x = x;
   bullet[count_bullet].bullet.y = y;
 
-  // create_target(game, count_bullet);
 
   count_bullet += 1;
 }
-
 void run_bullet(DisplayGame *game) {
   for (int i = 0; i < count_bullet;) {
     bullet[i].bullet.y -= 10;
@@ -38,7 +36,6 @@ void run_bullet(DisplayGame *game) {
         bullet[j] = bullet[j + 1];
       }
       count_bullet--;
-      continue;
     } else {
       set_bullet(*game, bullet[i].bullet);
       i++;

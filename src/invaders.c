@@ -69,15 +69,18 @@ void *create_random(void *arg) {
 
 void run_inv(DisplayGame *game) {
   game->hard_level = game->time_pass < 110 ? game->time_pass / 10 : 6;
-  for (int i = 0; i < count_invaders; i++) {
+  for (int i = 0; i < count_invaders;) {
     invaders[i].image.y += 1;
     set_inv(*game, invaders[i].image);
 
-    if (invaders[i].image.y >= game->height ) {
+    if (invaders[i].image.y >= game->height) {
       game->health--;
-      for (int j = 0; j < capcity_invaders - 2; j++) {
+      for (int j = i; j < count_invaders - 1; j++) {
         invaders[j] = invaders[j + 1];
       }
+      count_invaders--;
+    } else {
+      i++;
     }
   }
-};
+}
