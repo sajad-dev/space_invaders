@@ -16,6 +16,7 @@ set(SOURCES
     src/distroy.c
     src/bullet.c
     src/clock.c
+    src/score.c
     src/footer.c
     src/utils.c
     src/keyboard.c

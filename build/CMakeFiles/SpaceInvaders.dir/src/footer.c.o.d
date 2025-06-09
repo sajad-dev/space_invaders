@@ -70,4 +70,5 @@ CMakeFiles/SpaceInvaders.dir/src/footer.c.o: \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/clock.h
+ /home/sajad/Documents/Programming/space_invaders/src/include/clock.h \
+ /home/sajad/Documents/Programming/space_invaders/src/include/score.h

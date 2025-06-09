@@ -85,12 +85,12 @@ clean: CMakeFiles/SpaceInvaders.dir/clean
 CMakeFiles/SpaceInvaders.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sajad/Documents/Programming/space_invaders/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target SpaceInvaders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sajad/Documents/Programming/space_invaders/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target SpaceInvaders"
 .PHONY : CMakeFiles/SpaceInvaders.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SpaceInvaders.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sajad/Documents/Programming/space_invaders/build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sajad/Documents/Programming/space_invaders/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SpaceInvaders.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sajad/Documents/Programming/space_invaders/build/CMakeFiles 0
 .PHONY : CMakeFiles/SpaceInvaders.dir/rule
@@ -102,7 +102,7 @@ SpaceInvaders: CMakeFiles/SpaceInvaders.dir/rule
 # codegen rule for target.
 CMakeFiles/SpaceInvaders.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sajad/Documents/Programming/space_invaders/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Finished codegen for target SpaceInvaders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sajad/Documents/Programming/space_invaders/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Finished codegen for target SpaceInvaders"
 .PHONY : CMakeFiles/SpaceInvaders.dir/codegen
 
 # clean rule for target.

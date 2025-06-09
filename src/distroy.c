@@ -1,13 +1,13 @@
 #include "bullet.h"
 #include "display.h"
 #include "invaders.h"
+#include "score.h"
 #include <X11/Xlib.h>
 #include <distroy.h>
 #include <pthread.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-
-
 
 Distroy *distroy_list;
 int count_distroy_list;
@@ -39,16 +39,17 @@ void add_distroy(Distroy dis) {
             : realloc(distroy_list, (capcity_distroy_list) * sizeof(Distroy));
   }
   distroy_list[count_distroy_list] = dis;
-  count_distroy_list ++;
+  count_distroy_list++;
 }
 
 void deailing(DisplayGame game) {
   for (int i = 0; i < count_bullet; i++) {
     for (int j = 0; j < count_invaders; j++) {
-      if (bullet[i].x >= invaders[j].image.x &&
-          bullet[i].x <= invaders[j].image.x + invaders[j].image.width &&
-          invaders[j].image.y <= bullet[i].y &&
-          invaders[j].image.y + invaders[j].image.height >= bullet[i].y) {
+      if (bullet[i].bullet.x >= invaders[j].image.x &&
+          bullet[i].bullet.x <= invaders[j].image.x + invaders[j].image.width &&
+          invaders[j].image.y <= bullet[i].bullet.y &&
+          invaders[j].image.y + invaders[j].image.height >=
+              bullet[i].bullet.y) {
 
         for (int k = i; k < capcity_bullet - 1; k++) {
           bullet[k] = bullet[k + 1];
@@ -57,11 +58,22 @@ void deailing(DisplayGame game) {
 
         invaders[j].health--;
         if (invaders[j].health <= 0) {
+          switch (invaders[j].type) {
+          case L1:
+            score += 100;
+	    break;
+          case M1:
+            score += 200;
+	    break;
+          case S1:
+            score += 400;
+	    break;
+          }
           Distroy args;
           args.x = invaders[j].image.x;
           args.y = invaders[j].image.y;
           args.time_ds = 6;
-	  add_distroy(args);
+          add_distroy(args);
 
           for (int k = j; k < capcity_invaders - 1; k++) {
             invaders[k] = invaders[k + 1];

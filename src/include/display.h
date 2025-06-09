@@ -37,6 +37,7 @@ typedef struct {
 	int height;
 	int width_screen;
 	int height_screen;
+	int health;
 	Display *display;
 	Window window;
 	GC gc;

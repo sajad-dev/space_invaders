@@ -32,15 +32,19 @@ void loop(DisplayGame game) {
     XClearWindow(game.display, game.window);
 
     set_ship(game);
-    // run_target(&game);
     run_inv(&game);
     distroy_invaders(game);
     run_bullet(&game);
     deailing(game);
     render_clock(game);
     draw_footer(game);
+    if (game.health <= 0){
+	    break;
+    }
+
     XFlush(game.display);
     game.time_pass += 1600.0 / (100000);
     usleep(16000);
   }
+  printf("end\n");
 }

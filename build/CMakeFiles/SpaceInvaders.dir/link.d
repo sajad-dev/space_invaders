@@ -11,6 +11,7 @@ SpaceInvaders: \
   CMakeFiles/SpaceInvaders.dir/src/distroy.c.o \
   CMakeFiles/SpaceInvaders.dir/src/bullet.c.o \
   CMakeFiles/SpaceInvaders.dir/src/clock.c.o \
+  CMakeFiles/SpaceInvaders.dir/src/score.c.o \
   CMakeFiles/SpaceInvaders.dir/src/footer.c.o \
   CMakeFiles/SpaceInvaders.dir/src/utils.c.o \
   CMakeFiles/SpaceInvaders.dir/src/keyboard.c.o \
@@ -82,6 +83,8 @@ CMakeFiles/SpaceInvaders.dir/src/distroy.c.o:
 CMakeFiles/SpaceInvaders.dir/src/bullet.c.o:
 
 CMakeFiles/SpaceInvaders.dir/src/clock.c.o:
+
+CMakeFiles/SpaceInvaders.dir/src/score.c.o:
 
 CMakeFiles/SpaceInvaders.dir/src/footer.c.o:
 

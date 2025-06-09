@@ -55,6 +55,12 @@
 },
 {
   "directory": "/home/sajad/Documents/Programming/space_invaders/build",
+  "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/score.c.o -c /home/sajad/Documents/Programming/space_invaders/src/score.c",
+  "file": "/home/sajad/Documents/Programming/space_invaders/src/score.c",
+  "output": "CMakeFiles/SpaceInvaders.dir/src/score.c.o"
+},
+{
+  "directory": "/home/sajad/Documents/Programming/space_invaders/build",
   "command": "/usr/bin/cc  -I/home/sajad/Documents/Programming/space_invaders/src/include -I/usr/include/freetype2  -o CMakeFiles/SpaceInvaders.dir/src/footer.c.o -c /home/sajad/Documents/Programming/space_invaders/src/footer.c",
   "file": "/home/sajad/Documents/Programming/space_invaders/src/footer.c",
   "output": "CMakeFiles/SpaceInvaders.dir/src/footer.c.o"

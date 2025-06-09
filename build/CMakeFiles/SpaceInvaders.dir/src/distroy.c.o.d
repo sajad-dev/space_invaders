@@ -72,6 +72,7 @@ CMakeFiles/SpaceInvaders.dir/src/distroy.c.o: \
  /usr/include/bits/types/struct_itimerspec.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/display.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
+ /home/sajad/Documents/Programming/space_invaders/src/include/score.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/distroy.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \

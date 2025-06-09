@@ -2,13 +2,16 @@
 #define BULLET_H
 
 #include "display.h"
+typedef struct {
+	  Image bullet;
+} BulletSt;
 void set_bullet(DisplayGame game, Image inv);
 
 void run_bullet (DisplayGame *game);
 
-void shut(DisplayGame game) ;
+void shut(DisplayGame game, int x, int y) ;
 
-extern Image *bullet;
+extern BulletSt *bullet;
 extern int count_bullet;
 extern int capcity_bullet;
 

@@ -20,6 +20,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SpaceInvaders.dir/src/main.c.o.d"
   "CMakeFiles/SpaceInvaders.dir/src/media.c.o"
   "CMakeFiles/SpaceInvaders.dir/src/media.c.o.d"
+  "CMakeFiles/SpaceInvaders.dir/src/score.c.o"
+  "CMakeFiles/SpaceInvaders.dir/src/score.c.o.d"
   "CMakeFiles/SpaceInvaders.dir/src/ship.c.o"
   "CMakeFiles/SpaceInvaders.dir/src/ship.c.o.d"
   "CMakeFiles/SpaceInvaders.dir/src/utils.c.o"

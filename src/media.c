@@ -26,7 +26,7 @@ void ship(DisplayGame game, Images *images) {
   images->ship = load_image(game,
                             "/home/sajad/Documents/Programming/space_invaders/"
                             "Assets/Sprites/player2.png",
-                            game.width / 2 - 50, game.height - 50);
+                            game.width / 2 - 50, game.height - 40);
 }
 
 void add_distroy_invaders(DisplayGame game, Images *images) {
@@ -34,7 +34,7 @@ void add_distroy_invaders(DisplayGame game, Images *images) {
       load_image(game,
                  "/home/sajad/Documents/Programming/space_invaders/Assets/"
                  "Sprites/Explosions/invaderExplosion.png",
-                 game.width / 2 - 50, game.height );
+                 game.width / 2 - 50, game.height);
 }
 
 void bullet_add(DisplayGame game, Images *images) {
@@ -58,85 +58,16 @@ void invader(DisplayGame game, Images *images) {
                  "Sprites/Invaders/invaderL1.png",
                  0, 0);
 
-  //   data = stbi_load("../Assets/Sprites/Invaders/invaderL2.png",
-  //   &invader.width,
-  //                    &invader.height, &invader.channels, 4);
-
-  //   if (!data) {
-  //     fprintf(stderr, "Failed to load image\n");
-  //   }
-
-  //   invader.image = XCreateImage(
-  //       game.display, DefaultVisual(game.display, game.screen), 24, ZPixmap,
-  //       0, (char *)data, invader.width, invader.height, 32, 0);
-
-  //   invader.x = 0;
-  //   invader.y = 0;
-  //   images->invaders_l2 = invader;
-
-  //   data = stbi_load("../Assets/Sprites/Invaders/invaderM1.png",
-  //   &invader.width,
-  //                    &invader.height, &invader.channels, 4);
-
-  //   if (!data) {
-  //     fprintf(stderr, "Failed to load image\n");
-  //   }
-
-  //   invader.image = XCreateImage(
-  //       game.display, DefaultVisual(game.display, game.screen), 24, ZPixmap,
-  //       0, (char *)data, invader.width, invader.height, 32, 0);
-
-  //   invader.x = 0;
-  //   invader.y = 0;
-  //   images->invaders_m1 = invader;
-
-  //   data = stbi_load("../Assets/Sprites/Invaders/invaderM2.png",
-  //   &invader.width,
-  //                    &invader.height, &invader.channels, 4);
-
-  //   if (!data) {
-  //     fprintf(stderr, "Failed to load image\n");
-  //   }
-
-  //   invader.image = XCreateImage(
-  //       game.display, DefaultVisual(game.display, game.screen), 24, ZPixmap,
-  //       0, (char *)data, invader.width, invader.height, 32, 0);
-
-  //   invader.x = 0;
-  //   invader.y = 0;
-  //   images->invaders_m2 = invader;
-
-  //   data = stbi_load("../Assets/Sprites/Invaders/invaderS1.png",
-  //   &invader.width,
-  //                    &invader.height, &invader.channels, 4);
-
-  //   if (!data) {
-  //     fprintf(stderr, "Failed to load image\n");
-  //   }
-
-  //   invader.image = XCreateImage(
-  //       game.display, DefaultVisual(game.display, game.screen), 24, ZPixmap,
-  //       0, (char *)data, invader.width, invader.height, 32, 0);
-
-  //   invader.x = 0;
-  //   invader.y = 0;
-  //   images->invaders_s1 = invader;
-
-  //   data = stbi_load("../Assets/Sprites/Invaders/invaderS2.png",
-  //   &invader.width,
-  //                    &invader.height, &invader.channels, 4);
-
-  //   if (!data) {
-  //     fprintf(stderr, "Failed to load image\n");
-  //   }
-
-  //   invader.image = XCreateImage(
-  //       game.display, DefaultVisual(game.display, game.screen), 24, ZPixmap,
-  //       0, (char *)data, invader.width, invader.height, 32, 0);
-
-  //   invader.x = 0;
-  //   invader.y = 0;
-  //   images->invaders_s2 = invader;
+  images->invaders_m1=
+      load_image(game,
+                 "/home/sajad/Documents/Programming/space_invaders/Assets/"
+                 "Sprites/Invaders/invaderM1.png",
+                 0, 0);
+  images->invaders_s1 =
+      load_image(game,
+                 "/home/sajad/Documents/Programming/space_invaders/Assets/"
+                 "Sprites/Invaders/invaderS1.png",
+                 0, 0);
 }
 
 Images add_image(DisplayGame game) {

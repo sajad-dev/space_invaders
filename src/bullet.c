@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-Image *bullet = NULL;
+BulletSt *bullet = NULL;
 int count_bullet = 0;
 int capcity_bullet = 0;
 
@@ -13,17 +13,17 @@ void set_bullet(DisplayGame game, Image bullet_img) {
             bullet_img.width, bullet_img.height);
 };
 
-void shut(DisplayGame game) {
+void shut(DisplayGame game, int x, int y) {
   if (count_bullet == capcity_bullet) {
     capcity_bullet = capcity_bullet + 1;
 
-    bullet = bullet == NULL ? calloc(capcity_bullet, sizeof(Image))
-                            : realloc(bullet, (capcity_bullet) * sizeof(Image));
+    bullet = bullet == NULL
+                 ? calloc(capcity_bullet, sizeof(BulletSt))
+                 : realloc(bullet, (capcity_bullet) * sizeof(BulletSt));
   }
-  bullet[count_bullet] = game.media.images.bullet;
-  bullet[count_bullet].x =
-      game.media.images.ship.x + (game.media.images.ship.width / 2);
-  bullet[count_bullet].y = game.media.images.ship.y;
+  bullet[count_bullet].bullet = game.media.images.bullet;
+  bullet[count_bullet].bullet.x = x;
+  bullet[count_bullet].bullet.y = y;
 
   // create_target(game, count_bullet);
 
@@ -32,15 +32,15 @@ void shut(DisplayGame game) {
 
 void run_bullet(DisplayGame *game) {
   for (int i = 0; i < count_bullet;) {
-    bullet[i].y -= 10;
-    if (bullet[i].y < 0) {
+    bullet[i].bullet.y -= 10;
+    if (bullet[i].bullet.y < 0) {
       for (int j = i; j < count_bullet - 1; j++) {
         bullet[j] = bullet[j + 1];
       }
       count_bullet--;
       continue;
     } else {
-      set_bullet(*game, bullet[i]);
+      set_bullet(*game, bullet[i].bullet);
       i++;
     }
   }

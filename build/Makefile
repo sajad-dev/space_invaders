@@ -369,6 +369,30 @@ src/media.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/media.c.s
 .PHONY : src/media.c.s
 
+src/score.o: src/score.c.o
+.PHONY : src/score.o
+
+# target to build an object file
+src/score.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/score.c.o
+.PHONY : src/score.c.o
+
+src/score.i: src/score.c.i
+.PHONY : src/score.i
+
+# target to preprocess a source file
+src/score.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/score.c.i
+.PHONY : src/score.c.i
+
+src/score.s: src/score.c.s
+.PHONY : src/score.s
+
+# target to generate assembly for a file
+src/score.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpaceInvaders.dir/build.make CMakeFiles/SpaceInvaders.dir/src/score.c.s
+.PHONY : src/score.c.s
+
 src/ship.o: src/ship.c.o
 .PHONY : src/ship.o
 
@@ -456,6 +480,9 @@ help:
 	@echo "... src/media.o"
 	@echo "... src/media.i"
 	@echo "... src/media.s"
+	@echo "... src/score.o"
+	@echo "... src/score.i"
+	@echo "... src/score.s"
 	@echo "... src/ship.o"
 	@echo "... src/ship.i"
 	@echo "... src/ship.s"

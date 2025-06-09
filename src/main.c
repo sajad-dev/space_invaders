@@ -8,6 +8,8 @@ int main() {
   DisplayGame game = configuration(900, 900);
   game.media = add_media(game);
   game.time_start = time_start;
+  game.time_pass = 0;
+  game.health = 1;
 
   loop(game);
   FreeMemmory(game);

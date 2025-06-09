@@ -3,7 +3,6 @@
 #include <X11/X.h>
 #include <X11/Xutil.h>
 #include <keyboard.h>
-#include <stdio.h>
 
 void dispatcher(DisplayGame *game, KeySym key) {
   switch (key) {
@@ -16,7 +15,8 @@ void dispatcher(DisplayGame *game, KeySym key) {
     set_ship(*game);
     break;
   case XK_space:
-    shut(*game);
+    shut(*game, game->media.images.ship.x + (game->media.images.ship.width / 2),
+         game->media.images.ship.y);
     break;
   };
 }
