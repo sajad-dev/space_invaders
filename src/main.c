@@ -9,7 +9,9 @@ int main() {
   game.media = add_media(game);
   game.time_start = time_start;
   game.time_pass = 0;
-  game.health = 1;
+  game.health = 3;
+  game.score = 0;
+  game.hard_level = 0;
 
   loop(game);
   FreeMemmory(game);

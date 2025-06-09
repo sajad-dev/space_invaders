@@ -70,8 +70,8 @@ CMakeFiles/SpaceInvaders.dir/src/loop.c.o: \
  /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /home/sajad/Documents/Programming/space_invaders/src/include/clock.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/distroy.h \
+ /home/sajad/Documents/Programming/space_invaders/src/include/clock.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/footer.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/invaders.h \
  /home/sajad/Documents/Programming/space_invaders/src/include/keyboard.h \

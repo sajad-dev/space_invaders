@@ -42,7 +42,7 @@ void add_distroy(Distroy dis) {
   count_distroy_list++;
 }
 
-void deailing(DisplayGame game) {
+void deailing(DisplayGame *game) {
   for (int i = 0; i < count_bullet; i++) {
     for (int j = 0; j < count_invaders; j++) {
       if (bullet[i].bullet.x >= invaders[j].image.x &&
@@ -60,14 +60,13 @@ void deailing(DisplayGame game) {
         if (invaders[j].health <= 0) {
           switch (invaders[j].type) {
           case L1:
-            score += 100;
+            game->score += 100;
 	    break;
           case M1:
-            score += 200;
+            game->score += 200;
 	    break;
           case S1:
-            score += 400;
-	    break;
+            game->score += 400;
           }
           Distroy args;
           args.x = invaders[j].image.x;

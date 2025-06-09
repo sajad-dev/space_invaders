@@ -10,7 +10,6 @@
 InvadersSt *invaders = {0};
 int count_invaders = 0;
 int capcity_invaders = 0;
-int hard_level = 0;
 
 void set_inv(DisplayGame game, Image inv) {
   XPutImage(game.display, game.window, DefaultGC(game.display, game.screen),
@@ -25,7 +24,7 @@ void *create_random(void *arg) {
 
   DisplayGame *game = (DisplayGame *)arg;
   while (1) {
-    sleep(6 - hard_level);
+    sleep(6 - game->hard_level);
     pthread_mutex_lock(&invader_mutex);
 
     if (count_invaders == capcity_invaders) {
@@ -38,7 +37,7 @@ void *create_random(void *arg) {
     }
     srand(time(NULL));
 
-    int num = rand() % (10 * (hard_level + 1));
+    int num = rand() % (10 * (game->hard_level + 1));
 
     if (num < 20) {
       TypeInvaders type = L1;
@@ -69,7 +68,7 @@ void *create_random(void *arg) {
 }
 
 void run_inv(DisplayGame *game) {
-  hard_level = game->time_pass < 110 ? game->time_pass / 10 : 6;
+  game->hard_level = game->time_pass < 110 ? game->time_pass / 10 : 6;
   for (int i = 0; i < count_invaders; i++) {
     invaders[i].image.y += 1;
     set_inv(*game, invaders[i].image);

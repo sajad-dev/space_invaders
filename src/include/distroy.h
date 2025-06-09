@@ -7,7 +7,7 @@ typedef struct Distroy {
 	int y;
 	int time_ds;
 } Distroy;
-void deailing (DisplayGame game);
+void deailing (DisplayGame *game);
 void distroy_invaders(DisplayGame game) ;
 extern Distroy *distroy_list;
 

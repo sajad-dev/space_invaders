@@ -1,10 +1,9 @@
 #include "display.h"
 #include <score.h>
-int score;
 void render_score(DisplayGame game) {
 
   char score_wr[20];
-  sprintf(score_wr, "%d", score);
+  sprintf(score_wr, "%d",game.score);
   XRenderColor render_color = {0xffff, 0xffff, 0xffff, 0xffff};
   XftColor xft_color;
 
