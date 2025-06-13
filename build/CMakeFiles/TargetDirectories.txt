@@ -1,3 +1,0 @@
-/home/sajad/Documents/Programming/space_invaders/build/CMakeFiles/SpaceInvaders.dir
-/home/sajad/Documents/Programming/space_invaders/build/CMakeFiles/edit_cache.dir
-/home/sajad/Documents/Programming/space_invaders/build/CMakeFiles/rebuild_cache.dir
